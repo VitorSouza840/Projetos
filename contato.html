@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="contato.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Game Console/Contato</title>
+</head>
+
+<body>
+    <div class="campo">
+        <h1 id="titulo">Contato</h1>
+        <p id="subtitulo">Complete as informações</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="text" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual o motivo do seu contato?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="Suporte" checked>Suporte
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Pagamento" checked>Pagamento
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Produtos" checked>Produtos
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="FAQ" checked>FAQ
+            </label>
+        </div>
+
+        <div class="campo">
+            <br>
+            <label><strong>Descreva a situação:</strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+
+    </form>
+</body>
+
+</html>
